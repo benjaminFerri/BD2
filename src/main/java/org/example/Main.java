@@ -18,6 +18,7 @@ public class Main {
         //MongoDatabase mongodb = connectToMongo();
         //Jedis redis = connectToRedis();
         Database cassandra = connectToCassandra();
+        System.out.println("ola");
 
     }
     private static MongoDatabase connectToMongo() {
